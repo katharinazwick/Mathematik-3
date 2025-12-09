@@ -10,3 +10,5 @@ for k in range(81, 120):
     prob += Decimal(comb(n, k)) * (p**k) * ((Decimal(1)-p)**(n-k))
 
 print(float(prob))
+
+
